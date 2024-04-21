@@ -1,0 +1,95 @@
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+#carte {
+  width: 270px;
+  height: 310px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#carte:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+
+.img {
+  width: 200px;
+  height: 170px;
+  margin-left: 0px;
+  background-image: none;
+}
+
+.title {
+  margin-top: 37px;
+  color: black;
+}
+
+.text {
+  color: black;
+}
+
+.bg-body-tertiary {
+  width: 100px;
+  /* background-color: aqua; */
+}
+.d-flex {
+  margin-left: 300px;
+}
+.me-2 {
+  width: 400px;
+}
+
+.name {
+  font-size: 25px;
+  margin-left: 120px;
+}
+
+#eshop {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+#linecard {
+  font-size: 30px;
+  margin-left: 300px;
+  color: black;
+  margin-top: 10px;
+}
+
+#basic-nav-dropdown {
+  position: absolute;
+  margin-left: 120px;
+  color: black;
+}
+h4 {
+  margin-top: 8px;
+}
+
+#dropdown {
+  /* margin-left: 170px; */
+  width: 15px;
+  height: 15px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style: none;
+  font-size: 30px;
+  transition: color 2s;
+  text-decoration: none !important;
+  color: white;
+}
+li:hover {
+  cursor: pointer;
+  color: aqua;
+}
+
